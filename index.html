@@ -34,6 +34,17 @@
   .hero .meta { margin-top: 14px; font-size: 0.95rem; color: #b9cce6; }
   .hero .meta a { color: #ffffff; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.45); }
   .hero .meta a:hover { border-bottom-color: #fff; }
+  .leaf-badge {
+    width: 74px; height: 74px;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin: -37px auto 0;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(31, 58, 95, 0.18);
+  }
+  .leaf-badge img { height: 46px; width: auto; }
   .wrap { max-width: 860px; margin: 0 auto; padding: 32px 24px 64px; }
   section { margin-top: 36px; }
   h2 {
@@ -74,6 +85,7 @@
     body { background: #fff; }
     .hero { background: none; color: var(--ink); padding: 12px 0; text-align: left; }
     .hero .headline, .hero .meta, .hero .meta a { color: var(--muted); }
+    .leaf-badge { display: none; }
     .job, .skill-row { border: none; padding: 4px 0; }
     footer { display: none; }
   }
@@ -92,6 +104,8 @@
     <a href="https://github.com/musicman3113">GitHub</a>
   </div>
 </header>
+
+<div class="leaf-badge"><img src="leaf.png" alt=""></div>
 
 <main class="wrap">
 
